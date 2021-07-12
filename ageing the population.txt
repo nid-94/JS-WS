@@ -1,0 +1,8 @@
+function afterNYears(names, n) {
+	var x;
+	for(x in names){
+		names[x]+=Math.abs(n);
+		
+	}
+	return names;
+}
